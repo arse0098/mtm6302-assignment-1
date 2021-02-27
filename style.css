@@ -1,0 +1,18 @@
+#emojis {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media (min-width: 640px) {
+    #emojis {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+
+@media (min-width: 900px) {
+    #emojis {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    }
+}
